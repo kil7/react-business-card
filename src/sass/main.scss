@@ -1,0 +1,8 @@
+/** Import globals and variables*/
+@import "./variables"; // Order here is important!
+@import "./core";
+
+/** Import page and layour stylings */
+@import "./components/info";
+@import "./components/about";
+@import "./components/footer";

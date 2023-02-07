@@ -1,0 +1,41 @@
+body {
+  margin: auto;
+  font-family: $font-stack;
+  background-color: $background-main;
+}
+
+.page-container {
+  width: min(100%, 800px);
+  margin: auto;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  width: 115px;
+  height: 34px;
+  left: 283px;
+  top: 469px;
+
+  font-weight: 500;
+}
+
+h1,
+h2 {
+  color: $font-heading;
+  margin: auto;
+}
+
+p,
+a {
+  color: $font-main;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

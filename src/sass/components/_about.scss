@@ -1,0 +1,16 @@
+.content-container {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    h2 {
+      margin-right: 100%;
+    }
+  }
+}
